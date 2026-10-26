@@ -4,10 +4,6 @@
 
 CarpoolCampus connects verified Chitkara students who have empty seats with fellow students travelling the same NH-64 corridor (Chandigarh, Mohali, Zirakpur, Panchkula, Ambala, Patiala → Rajpura campus).
 
-This repository holds the **React version** of the project (Front End Engineering-II, Project Evaluation-II). The original HTML + CSS + JavaScript version (Evaluation-I) is preserved under the Git tag [`evaluation-1`](../../tree/evaluation-1).
-
-## Features
-
 - **Verified access** – sign up and sign in with an official `@chitkara.edu.in` email.
 - **Find Ride** – filter by corridor search, city, maximum price, vehicle type and seats remaining; ladies-only filter; hide full rides; sort by time, fare or rating.
 - **Book a seat** – one click reserves a seat; the driver's phone number unlocks only after booking.
@@ -16,9 +12,9 @@ This repository holds the **React version** of the project (Front End Engineerin
 - **Profile** – commuter pass card and an editable, validated profile form.
 - **Extras** – student reviews, FAQ, About and campus safety directory, emergency SOS contacts, light/dark theme.
 
-## React topics demonstrated (Evaluation-II)
+## React topics demonstrated 
 
-| Topic | Where in the code |
+| Topic | 
 |---|---|
 | Navigation layout and page structure | `src/layouts/MainLayout.jsx`, `src/components/Navbar.jsx`, `Footer.jsx` |
 | Multi-page single-page application, React Router | `src/main.jsx` (`BrowserRouter`), `src/App.jsx` (`Routes`, `Route`), `NavLink`, `Outlet`, `useNavigate`, `useSearchParams` |
@@ -120,8 +116,3 @@ Submitted to: **Dr. Kirandeep Singh**
 | Bavika Arora | 2510991167 |
 | Jasmeet Kaur | 2510991052 |
 | Angad Singh Walia | 2510990376 |
-
-## Version history
-
-- **Evaluation-I** – HTML, CSS and JavaScript version: Git tag `evaluation-1`.
-- **Evaluation-II** – React version with React Router and form handling (this branch / `main`).
